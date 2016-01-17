@@ -29,9 +29,7 @@ class ViewController: UIViewController, BKPeripheralDelegate, BKCentralDelegate 
 //        } catch _ {
 //            // Handle error.
 //        }
-        //
-        
-        //
+//        
 //        let data = "Hello beloved central!".dataUsingEncoding(NSUTF8StringEncoding)
 //        let remoteCentral = peripheral.connectedRemoteCentrals.first! // Don't do this in the real world :]
 //        peripheral.sendData(data!, toRemoteCentral: remoteCentral) { data, remoteCentral, error in
@@ -75,13 +73,13 @@ class ViewController: UIViewController, BKPeripheralDelegate, BKCentralDelegate 
 //                // Handle error.
 //        })
 //        //
-        
-        //BUGGY!
-//        central.connect(remotePeripheral: peripherals[indexPath.row]) { remotePeripheral, error in
-//            // Handle error.
-//            // If no error, you're ready to receive data!
-//        }
-        //
+//        
+////        BUGGY!
+////        central.connect(remotePeripheral: peripherals[indexPath.row]) { remotePeripheral, error in
+////            // Handle error.
+////            // If no error, you're ready to receive data!
+////        }
+//        
     }
     
 

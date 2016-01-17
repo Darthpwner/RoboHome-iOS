@@ -7,10 +7,10 @@
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--main_command_page-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RoboHome" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" userLabel="main_command_page" customClass="ViewController" customModule="RoboHome" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -34,6 +34,9 @@
                                 <state key="normal" title="Temp">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="yNr-qm-zCX" kind="show" id="dSW-zs-Ls7"/>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Status Water Level: Full Lights: Off Door: Closed Temp: 70 °F" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dSi-uA-8qw">
                                 <rect key="frame" x="20" y="94" width="560" height="214"/>
@@ -72,6 +75,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AtY-6U-P7Y">
                                 <rect key="frame" x="460" y="540" width="60" height="60"/>
                                 <state key="normal" image="viewPairedDevices.jpg"/>
+                                <connections>
+                                    <segue destination="3Ec-lD-sxP" kind="show" id="5oG-xt-bNk"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fcT-7w-Mf8">
                                 <rect key="frame" x="20" y="376" width="180" height="60"/>
@@ -138,10 +144,80 @@
             </objects>
             <point key="canvasLocation" x="254" y="365"/>
         </scene>
+        <!--view_paired_devices-->
+        <scene sceneID="zUm-rm-f4j">
+            <objects>
+                <viewController id="3Ec-lD-sxP" userLabel="view_paired_devices" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ERG-gP-ejh"/>
+                        <viewControllerLayoutGuide type="bottom" id="xLk-xH-rHG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Oth-e8-iVN">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rHg-uE-Bh0">
+                                <rect key="frame" x="150" y="480" width="300" height="120"/>
+                                <state key="normal" image="back_arrow.png"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="eIb-wY-5kc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="rHg-uE-Bh0" firstAttribute="height" secondItem="Oth-e8-iVN" secondAttribute="height" multiplier="0.2" id="9EY-ai-fkf"/>
+                            <constraint firstItem="rHg-uE-Bh0" firstAttribute="centerX" secondItem="Oth-e8-iVN" secondAttribute="centerX" id="GQW-l0-LKD"/>
+                            <constraint firstItem="xLk-xH-rHG" firstAttribute="top" secondItem="rHg-uE-Bh0" secondAttribute="bottom" id="YU7-QX-eIW"/>
+                            <constraint firstItem="rHg-uE-Bh0" firstAttribute="width" secondItem="Oth-e8-iVN" secondAttribute="width" multiplier="0.5" id="pA3-gE-gmo"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EBU-GL-JfS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="254" y="1032"/>
+        </scene>
+        <!--temperature_page-->
+        <scene sceneID="OTW-dl-qwN">
+            <objects>
+                <viewController id="yNr-qm-zCX" userLabel="temperature_page" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iGv-KL-Q42"/>
+                        <viewControllerLayoutGuide type="bottom" id="37C-8e-yQi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5jN-uq-6Cn">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uDI-Xj-8Ig">
+                                <rect key="frame" x="150" y="480" width="300" height="120"/>
+                                <state key="normal" image="back_arrow.png"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="YCJ-Oj-oHP"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="37C-8e-yQi" firstAttribute="top" secondItem="uDI-Xj-8Ig" secondAttribute="bottom" id="GSi-eZ-Dze"/>
+                            <constraint firstItem="uDI-Xj-8Ig" firstAttribute="centerX" secondItem="5jN-uq-6Cn" secondAttribute="centerX" id="jm1-Ea-kH1"/>
+                            <constraint firstItem="uDI-Xj-8Ig" firstAttribute="height" secondItem="5jN-uq-6Cn" secondAttribute="height" multiplier="0.2" id="nj4-Ci-t1r"/>
+                            <constraint firstItem="uDI-Xj-8Ig" firstAttribute="width" secondItem="5jN-uq-6Cn" secondAttribute="width" multiplier="0.5" id="oZI-U3-jYk"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nwZ-Pf-8ZY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="940" y="365"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="back_arrow.png" width="268" height="186"/>
         <image name="bluetooth.png" width="5000" height="3000"/>
         <image name="turnOff.jpg" width="267" height="189"/>
         <image name="viewPairedDevices.jpg" width="225" height="225"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="YCJ-Oj-oHP"/>
+    </inferredMetricsTieBreakers>
 </document>
