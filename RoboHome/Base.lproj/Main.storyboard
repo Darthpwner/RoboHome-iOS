@@ -28,7 +28,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xrt-5i-qMn">
-                                <rect key="frame" x="520" y="259" width="60" height="60"/>
+                                <rect key="frame" x="520" y="285.5" width="60" height="60"/>
                                 <color key="backgroundColor" red="0.80000001192092896" green="0.80000001192092896" blue="0.80000001192092896" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Lights">
@@ -36,7 +36,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vHh-hS-xAK">
-                                <rect key="frame" x="520" y="351" width="60" height="60"/>
+                                <rect key="frame" x="520" y="380" width="60" height="60"/>
                                 <color key="backgroundColor" red="0.80000001192092896" green="0.80000001192092896" blue="0.80000001192092896" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Temp">
@@ -65,9 +65,9 @@
                                 <rect key="frame" x="20" y="440" width="60" height="60"/>
                                 <state key="normal" image="findDiscoverableDevices.png"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AO1-iT-bny">
-                                <rect key="frame" x="270" y="440" width="60" height="60"/>
-                                <state key="normal" image="turnOff.jpg"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AtY-6U-P7Y">
+                                <rect key="frame" x="520" y="440" width="60" height="60"/>
+                                <state key="normal" image="viewPairedDevices.jpg"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nPv-as-3sf">
                                 <rect key="frame" x="20" y="380" width="60" height="60"/>
@@ -77,13 +77,14 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AtY-6U-P7Y">
-                                <rect key="frame" x="520" y="411" width="60" height="60"/>
-                                <state key="normal" image="viewPairedDevices.jpg"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AO1-iT-bny">
+                                <rect key="frame" x="270" y="440" width="60" height="60"/>
+                                <state key="normal" image="turnOff.jpg"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="AtY-6U-P7Y" firstAttribute="height" secondItem="AO1-iT-bny" secondAttribute="height" id="3dg-Nh-RV7"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="kGD-z0-PP8" secondAttribute="bottom" id="3ko-n2-KRO"/>
                             <constraint firstItem="fcT-7w-Mf8" firstAttribute="top" secondItem="fpw-8Y-G3v" secondAttribute="bottom" multiplier="1.1" id="7eX-pZ-RZp"/>
                             <constraint firstItem="kGD-z0-PP8" firstAttribute="width" secondItem="AO1-iT-bny" secondAttribute="width" id="8oz-jj-0cV"/>
@@ -104,7 +105,7 @@
                             <constraint firstItem="AtY-6U-P7Y" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.1" id="UWq-B9-DCX"/>
                             <constraint firstItem="AO1-iT-bny" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VCt-Oe-NZ4"/>
                             <constraint firstItem="vHh-hS-xAK" firstAttribute="leading" secondItem="Xrt-5i-qMn" secondAttribute="leading" id="WG5-wS-bl2"/>
-                            <constraint firstItem="Xrt-5i-qMn" firstAttribute="top" secondItem="fpw-8Y-G3v" secondAttribute="bottom" id="XhR-eg-TnB"/>
+                            <constraint firstItem="Xrt-5i-qMn" firstAttribute="top" secondItem="fpw-8Y-G3v" secondAttribute="bottom" multiplier="1.1" id="XhR-eg-TnB"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="nPv-as-3sf" secondAttribute="bottom" id="ZZr-7q-f4d"/>
                             <constraint firstItem="AO1-iT-bny" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.1" id="awF-6L-4cb"/>
                             <constraint firstItem="fpw-8Y-G3v" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cfx-9c-ize"/>
@@ -146,6 +147,9 @@
                                 <exclude reference="Jra-hh-E4Z"/>
                                 <exclude reference="M1w-E5-aJw"/>
                                 <exclude reference="dF2-fE-Qgx"/>
+                                <exclude reference="8oz-jj-0cV"/>
+                                <exclude reference="dbh-ws-Pcu"/>
+                                <exclude reference="PkQ-1B-R0x"/>
                                 <exclude reference="oes-Fp-7vu"/>
                                 <exclude reference="3ko-n2-KRO"/>
                                 <exclude reference="ZZr-7q-f4d"/>
@@ -154,6 +158,7 @@
                                 <exclude reference="o4e-ce-qdz"/>
                                 <exclude reference="TLr-lg-14m"/>
                                 <exclude reference="o3r-df-RM7"/>
+                                <exclude reference="3dg-Nh-RV7"/>
                                 <exclude reference="zjW-uA-tfR"/>
                             </mask>
                         </variation>
