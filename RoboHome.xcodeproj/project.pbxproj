@@ -16,6 +16,7 @@
 		6B203E9D1C4B53650092C509 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B203E9B1C4B53650092C509 /* LaunchScreen.storyboard */; };
 		6B203EA81C4B53650092C509 /* RoboHomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B203EA71C4B53650092C509 /* RoboHomeTests.swift */; };
 		6B203EB31C4B53650092C509 /* RoboHomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B203EB21C4B53650092C509 /* RoboHomeUITests.swift */; };
+		6B203EC61C4B62520092C509 /* findDiscoverableDevices.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B203EC51C4B62520092C509 /* findDiscoverableDevices.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		6B203EAE1C4B53650092C509 /* RoboHomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoboHomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B203EB21C4B53650092C509 /* RoboHomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoboHomeUITests.swift; sourceTree = "<group>"; };
 		6B203EB41C4B53650092C509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B203EC51C4B62520092C509 /* findDiscoverableDevices.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = findDiscoverableDevices.png; sourceTree = "<group>"; };
 		E34EA7CAD5E85FC0008B01F3 /* Pods_RoboHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoboHome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B5030048A6F9A35BF34DFD /* Pods-RoboHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoboHome.release.xcconfig"; path = "Pods/Target Support Files/Pods-RoboHome/Pods-RoboHome.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,6 +94,7 @@
 		6B203E831C4B53650092C509 = {
 			isa = PBXGroup;
 			children = (
+				6B203EC41C4B622D0092C509 /* Images */,
 				6B203E8E1C4B53650092C509 /* RoboHome */,
 				6B203EA61C4B53650092C509 /* RoboHomeTests */,
 				6B203EB11C4B53650092C509 /* RoboHomeUITests */,
@@ -141,6 +144,14 @@
 				6B203EB41C4B53650092C509 /* Info.plist */,
 			);
 			path = RoboHomeUITests;
+			sourceTree = "<group>";
+		};
+		6B203EC41C4B622D0092C509 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				6B203EC51C4B62520092C509 /* findDiscoverableDevices.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 		F7D8B3E8591ABFE2FEE339A4 /* Pods */ = {
@@ -260,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B203E9D1C4B53650092C509 /* LaunchScreen.storyboard in Resources */,
+				6B203EC61C4B62520092C509 /* findDiscoverableDevices.png in Resources */,
 				6B203E9A1C4B53650092C509 /* Assets.xcassets in Resources */,
 				6B203E951C4B53650092C509 /* Main.storyboard in Resources */,
 			);
