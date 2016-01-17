@@ -20,7 +20,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fcT-7w-Mf8">
-                                <rect key="frame" x="20" y="458" width="66" height="41"/>
+                                <rect key="frame" x="20" y="358" width="66" height="41"/>
                                 <color key="backgroundColor" red="0.80000001192092896" green="0.80000001192092896" blue="0.80000001192092896" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Water">
@@ -28,7 +28,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xrt-5i-qMn">
-                                <rect key="frame" x="514" y="458" width="66" height="41"/>
+                                <rect key="frame" x="514" y="358" width="66" height="41"/>
                                 <color key="backgroundColor" red="0.80000001192092896" green="0.80000001192092896" blue="0.80000001192092896" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Lights">
@@ -36,7 +36,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nPv-as-3sf">
-                                <rect key="frame" x="20" y="499" width="66" height="41"/>
+                                <rect key="frame" x="20" y="399" width="66" height="41"/>
                                 <color key="backgroundColor" red="0.80000001192092896" green="0.80000001192092896" blue="0.80000001192092896" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Door">
@@ -44,15 +44,15 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vHh-hS-xAK">
-                                <rect key="frame" x="514" y="499" width="66" height="41"/>
+                                <rect key="frame" x="514" y="399" width="66" height="41"/>
                                 <color key="backgroundColor" red="0.80000001192092896" green="0.80000001192092896" blue="0.80000001192092896" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Temp">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Status Water Level: Full Lights: Off Door: Closed Temp: 70 °F" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dSi-uA-8qw">
-                                <rect key="frame" x="20" y="94" width="600" height="330.5"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" text="Status Water Level: Full Lights: Off Door: Closed Temp: 70 °F" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dSi-uA-8qw">
+                                <rect key="frame" x="20" y="94" width="600" height="37"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -64,22 +64,22 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Commands" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fpw-8Y-G3v">
-                                <rect key="frame" x="228" y="424" width="143.5" height="33.5"/>
+                                <rect key="frame" x="228" y="324" width="143.5" height="33.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kGD-z0-PP8">
-                                <rect key="frame" x="20" y="540" width="60" height="60"/>
+                                <rect key="frame" x="20" y="440" width="60" height="60"/>
                                 <state key="normal" image="findDiscoverableDevices.png"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AtY-6U-P7Y">
-                                <rect key="frame" x="520" y="540" width="60" height="60"/>
-                                <state key="normal" image="viewPairedDevices.jpg"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AO1-iT-bny">
-                                <rect key="frame" x="270" y="540" width="60" height="60"/>
+                                <rect key="frame" x="270" y="440" width="60" height="60"/>
                                 <state key="normal" image="turnOff.jpg"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AtY-6U-P7Y">
+                                <rect key="frame" x="520" y="440" width="60" height="60"/>
+                                <state key="normal" image="viewPairedDevices.jpg"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -111,15 +111,17 @@
                             <constraint firstItem="fpw-8Y-G3v" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="dF2-fE-Qgx"/>
                             <constraint firstItem="kGD-z0-PP8" firstAttribute="height" secondItem="AO1-iT-bny" secondAttribute="height" id="dbh-ws-Pcu"/>
                             <constraint firstItem="AtY-6U-P7Y" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.1" id="e3O-Kd-1io"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="AtY-6U-P7Y" secondAttribute="bottom" id="fMw-SP-ht0"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="kGD-z0-PP8" secondAttribute="bottom" multiplier="1.2" id="eNk-wG-Fy6"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="AtY-6U-P7Y" secondAttribute="bottom" multiplier="1.2" id="fMw-SP-ht0"/>
                             <constraint firstItem="fpw-8Y-G3v" firstAttribute="top" secondItem="dSi-uA-8qw" secondAttribute="bottom" id="fs8-jr-eQm"/>
                             <constraint firstItem="AtY-6U-P7Y" firstAttribute="top" secondItem="vHh-hS-xAK" secondAttribute="bottom" id="gC6-Bd-Efd"/>
                             <constraint firstAttribute="trailingMargin" secondItem="vHh-hS-xAK" secondAttribute="trailing" id="goc-Bi-O6j"/>
+                            <constraint firstItem="AO1-iT-bny" firstAttribute="bottom" secondItem="kGD-z0-PP8" secondAttribute="bottom" id="hNW-k4-R6T"/>
                             <constraint firstItem="8wl-6a-SAs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="icp-DH-pse"/>
                             <constraint firstItem="kGD-z0-PP8" firstAttribute="top" secondItem="nPv-as-3sf" secondAttribute="bottom" id="io4-T4-Ezj"/>
                             <constraint firstItem="kGD-z0-PP8" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.1" id="jGy-E4-IY3"/>
                             <constraint firstItem="kGD-z0-PP8" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.1" id="k85-tv-1gg"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="AO1-iT-bny" secondAttribute="bottom" id="kC5-kV-kHf"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="AO1-iT-bny" secondAttribute="bottom" multiplier="1.2" id="kC5-kV-kHf"/>
                             <constraint firstItem="vHh-hS-xAK" firstAttribute="height" secondItem="nPv-as-3sf" secondAttribute="height" id="o3r-df-RM7"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="vHh-hS-xAK" secondAttribute="bottom" id="o4e-ce-qdz"/>
                             <constraint firstItem="AO1-iT-bny" firstAttribute="height" secondItem="AtY-6U-P7Y" secondAttribute="height" id="oes-Fp-7vu"/>
@@ -127,6 +129,7 @@
                             <constraint firstAttribute="trailingMargin" secondItem="AtY-6U-P7Y" secondAttribute="trailing" id="uiH-gh-Ycj"/>
                             <constraint firstItem="dSi-uA-8qw" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="zR1-fd-IeV"/>
                             <constraint firstItem="fcT-7w-Mf8" firstAttribute="leading" secondItem="dSi-uA-8qw" secondAttribute="leading" id="zav-VZ-ary"/>
+                            <constraint firstItem="AtY-6U-P7Y" firstAttribute="bottom" secondItem="AO1-iT-bny" secondAttribute="bottom" multiplier="1.2" id="zjW-uA-tfR"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
