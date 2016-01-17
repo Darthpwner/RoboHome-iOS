@@ -69,10 +69,6 @@
                                 <rect key="frame" x="270" y="440" width="60" height="60"/>
                                 <state key="normal" image="turnOff.jpg"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AtY-6U-P7Y">
-                                <rect key="frame" x="520" y="440" width="60" height="60"/>
-                                <state key="normal" image="viewPairedDevices.jpg"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nPv-as-3sf">
                                 <rect key="frame" x="20" y="399" width="66" height="41"/>
                                 <color key="backgroundColor" red="0.80000001192092896" green="0.80000001192092896" blue="0.80000001192092896" alpha="1" colorSpace="calibratedRGB"/>
@@ -80,6 +76,10 @@
                                 <state key="normal" title="Door">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AtY-6U-P7Y">
+                                <rect key="frame" x="520" y="440" width="60" height="60"/>
+                                <state key="normal" image="viewPairedDevices.jpg"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -133,9 +133,11 @@
                             <constraint firstAttribute="trailingMargin" secondItem="Xrt-5i-qMn" secondAttribute="trailing" id="sg6-iv-j5k"/>
                             <constraint firstItem="nPv-as-3sf" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.1" id="ugE-Lk-0U9"/>
                             <constraint firstAttribute="trailingMargin" secondItem="AtY-6U-P7Y" secondAttribute="trailing" id="uiH-gh-Ycj"/>
+                            <constraint firstItem="Xrt-5i-qMn" firstAttribute="width" secondItem="fcT-7w-Mf8" secondAttribute="width" id="v17-ZX-XJg"/>
+                            <constraint firstItem="Xrt-5i-qMn" firstAttribute="height" secondItem="fcT-7w-Mf8" secondAttribute="height" id="z6x-ff-U8B"/>
                             <constraint firstItem="dSi-uA-8qw" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="zR1-fd-IeV"/>
                             <constraint firstItem="fcT-7w-Mf8" firstAttribute="leading" secondItem="dSi-uA-8qw" secondAttribute="leading" id="zav-VZ-ary"/>
-                            <constraint firstItem="AtY-6U-P7Y" firstAttribute="bottom" secondItem="AO1-iT-bny" secondAttribute="bottom" multiplier="1.2" id="zjW-uA-tfR"/>
+                            <constraint firstItem="AtY-6U-P7Y" firstAttribute="bottom" secondItem="AO1-iT-bny" secondAttribute="bottom" id="zjW-uA-tfR"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
@@ -144,8 +146,11 @@
                                 <exclude reference="Jra-hh-E4Z"/>
                                 <exclude reference="M1w-E5-aJw"/>
                                 <exclude reference="dF2-fE-Qgx"/>
+                                <exclude reference="oes-Fp-7vu"/>
                                 <exclude reference="3ko-n2-KRO"/>
                                 <exclude reference="ZZr-7q-f4d"/>
+                                <exclude reference="eNk-wG-Fy6"/>
+                                <exclude reference="fMw-SP-ht0"/>
                                 <exclude reference="o4e-ce-qdz"/>
                                 <exclude reference="TLr-lg-14m"/>
                                 <exclude reference="o3r-df-RM7"/>
