@@ -85,7 +85,11 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-RoboHome/BluetoothKit.framework"
+  install_framework "Pods-RoboHome/Bolts.framework"
+  install_framework "Pods-RoboHome/Parse.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-RoboHome/BluetoothKit.framework"
+  install_framework "Pods-RoboHome/Bolts.framework"
+  install_framework "Pods-RoboHome/Parse.framework"
 fi

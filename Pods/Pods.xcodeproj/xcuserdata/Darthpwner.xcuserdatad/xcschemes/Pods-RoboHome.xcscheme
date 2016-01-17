@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '71B2893AA95451B434CF6BD1'
+               BlueprintIdentifier = '89A39693BD7184698E5FB717'
                BlueprintName = 'Pods-RoboHome'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_RoboHome.framework'>

@@ -1,10 +1,16 @@
 PODS:
   - BluetoothKit (0.2.1)
+  - Bolts/Tasks (1.6.0)
+  - Parse (1.12.0):
+    - Bolts/Tasks (~> 1.5)
 
 DEPENDENCIES:
   - BluetoothKit (~> 0.2.0)
+  - Parse
 
 SPEC CHECKSUMS:
   BluetoothKit: c1dfd8f529a1d4d2c0778b97a8937b5b68c75395
+  Bolts: f52a250053bb517ca874523c3913776359ab3def
+  Parse: de2c52a9a1421b91ae7594ab8ce191afd184f19b
 
 COCOAPODS: 0.39.0
