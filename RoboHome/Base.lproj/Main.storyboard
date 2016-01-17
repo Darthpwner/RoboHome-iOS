@@ -44,7 +44,7 @@
                                 </state>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Status Water Level: Full Lights: Off Door: Closed Temp: 70 °F" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dSi-uA-8qw">
-                                <rect key="frame" x="20" y="94" width="600" height="214"/>
+                                <rect key="frame" x="20" y="94" width="560" height="214"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -82,7 +82,7 @@
                                 <state key="normal" image="viewPairedDevices.jpg"/>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="fcT-7w-Mf8" firstAttribute="top" secondItem="fpw-8Y-G3v" secondAttribute="bottom" multiplier="1.1" id="7eX-pZ-RZp"/>
                             <constraint firstItem="8wl-6a-SAs" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Bvw-zf-ORn"/>
@@ -101,6 +101,7 @@
                             <constraint firstItem="AtY-6U-P7Y" firstAttribute="centerX" secondItem="vHh-hS-xAK" secondAttribute="centerX" id="a5e-dY-1g5"/>
                             <constraint firstItem="AO1-iT-bny" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.1" id="awF-6L-4cb"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="kGD-z0-PP8" secondAttribute="bottom" id="c08-2R-bCo"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="dSi-uA-8qw" secondAttribute="trailing" id="cHC-pX-hqi"/>
                             <constraint firstItem="fpw-8Y-G3v" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cfx-9c-ize"/>
                             <constraint firstItem="fcT-7w-Mf8" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.3" id="d6k-VZ-Th9"/>
                             <constraint firstItem="AtY-6U-P7Y" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.1" id="e3O-Kd-1io"/>
@@ -126,6 +127,7 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
+                                <exclude reference="zR1-fd-IeV"/>
                                 <exclude reference="H1F-er-Hkf"/>
                                 <exclude reference="uiH-gh-Ycj"/>
                             </mask>
