@@ -19,6 +19,12 @@ class ViewController: UIViewController {
         
         var product = PFObject(className: "Products")
         
+        product["name"] = "Pizza"
+        
+        product["description"] = "Deliciously cheesy"
+        
+        product["price"] = 9.99
+        
     }
     
 
