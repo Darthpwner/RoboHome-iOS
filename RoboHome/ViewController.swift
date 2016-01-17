@@ -25,6 +25,15 @@ class ViewController: UIViewController {
         
         product["price"] = 9.99
         
+//        product.saveInBackgroundWithBlock { (success, error) -> Void in
+//            if success == true  {
+//                print("Successful")
+//            } else {
+//                print("failed")
+//                print(error)
+//            }
+//        }
+    
     }
     
 
