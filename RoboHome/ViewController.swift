@@ -77,10 +77,10 @@ class ViewController: UIViewController, BKPeripheralDelegate, BKCentralDelegate 
         //
         
         //BUGGY!
-//        central.connect(remotePeripheral: peripherals[indexPath.row]) { remotePeripheral, error in
-//            // Handle error.
-//            // If no error, you're ready to receive data!
-//        }
+        central.connect(remotePeripheral: peripherals[indexPath.row]) { remotePeripheral, error in
+            // Handle error.
+            // If no error, you're ready to receive data!
+        }
         //
     }
     
@@ -107,7 +107,5 @@ class ViewController: UIViewController, BKPeripheralDelegate, BKCentralDelegate 
         
     }
     //
-
-
 }
 
