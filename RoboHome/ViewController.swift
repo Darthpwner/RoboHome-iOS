@@ -9,14 +9,13 @@
 import UIKit
 import BluetoothKit
 
-class ViewController: UIViewController, BKPeripheralDelegate, BKCentralDelegate {
+class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-    
-        //
+//        //
 //        let peripheral = BKPeripheral()
 //        peripheral.delegate = self
 //        do {
@@ -79,7 +78,7 @@ class ViewController: UIViewController, BKPeripheralDelegate, BKCentralDelegate 
 ////            // Handle error.
 ////            // If no error, you're ready to receive data!
 ////        }
-//        
+        
     }
     
 
@@ -89,21 +88,21 @@ class ViewController: UIViewController, BKPeripheralDelegate, BKCentralDelegate 
     }
     
     //
-    func peripheral(peripheral: BKPeripheral, remoteCentralDidConnect remoteCentral: BKRemoteCentral) {
-        
-    }
-    //
-    
-    //
-    func peripheral(peripheral: BKPeripheral, remoteCentralDidDisconnect remoteCentral: BKRemoteCentral) {
-        
-    }
-    //
-    
-    //
-    func central(central: BKCentral, remotePeripheralDidDisconnect remotePeripheral: BKRemotePeripheral) {
-        
-    }
+//    func peripheral(peripheral: BKPeripheral, remoteCentralDidConnect remoteCentral: BKRemoteCentral) {
+//        
+//    }
+//    //
+//    
+//    //
+//    func peripheral(peripheral: BKPeripheral, remoteCentralDidDisconnect remoteCentral: BKRemoteCentral) {
+//        
+//    }
+//    //
+//    
+//    //
+//    func central(central: BKCentral, remotePeripheralDidDisconnect remotePeripheral: BKRemotePeripheral) {
+//        
+//    }
     //
 }
 
