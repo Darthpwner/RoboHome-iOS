@@ -10,22 +10,6 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RoboHome/ViewController.swift"
-            timestampString = "474702998.399258"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RoboHome/ViewController.swift"
             timestampString = "474702440.467806"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
@@ -38,16 +22,16 @@
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "RoboHome.ViewController.__deallocating_deinit"
+                  symbolName = "RoboHome.ViewController.init (RoboHome.ViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; RoboHome.ViewController"
                   moduleName = "RoboHome"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Darthpwner/Desktop/RoboHome/RoboHome/ViewController.swift"
-                  timestampString = "474702999.440248"
+                  timestampString = "474703737.23986"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
                   endingLineNumber = "0"
-                  offsetFromSymbolStart = "12">
+                  offsetFromSymbolStart = "57">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -57,7 +41,7 @@
                   moduleName = "RoboHome"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Darthpwner/Desktop/RoboHome/RoboHome/ViewController.swift"
-                  timestampString = "474702999.440537"
+                  timestampString = "474703737.240033"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -81,38 +65,6 @@
             endingLineNumber = "94"
             landmarkName = "peripheral(_:remoteCentralDidConnect:)"
             landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "RoboHome.ViewController.peripheral (RoboHome.ViewController)(BluetoothKit.BKPeripheral, remoteCentralDidConnect : BluetoothKit.BKRemoteCentral) -&gt; ()"
-                  moduleName = "RoboHome"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Darthpwner/Desktop/RoboHome/RoboHome/ViewController.swift"
-                  timestampString = "474702999.441064"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "96"
-                  endingLineNumber = "96"
-                  offsetFromSymbolStart = "20">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "protocol witness for BluetoothKit.BKPeripheralDelegate.peripheral &lt;A where A: BluetoothKit.BKPeripheralDelegate&gt; (A)(BluetoothKit.BKPeripheral, remoteCentralDidConnect : BluetoothKit.BKRemoteCentral) -&gt; () in conformance RoboHome.ViewController : BluetoothKit.BKPeripheralDelegate in RoboHome"
-                  moduleName = "RoboHome"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Darthpwner/Desktop/RoboHome/RoboHome/ViewController.swift"
-                  timestampString = "474702999.441218"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "94"
-                  endingLineNumber = "94"
-                  offsetFromSymbolStart = "4">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
